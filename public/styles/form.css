@@ -1,0 +1,89 @@
+.form {
+    width: 456px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 125px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.form-title {
+    color: #5545B1;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.validate-input {
+    width: 90%;
+    border-bottom: 2px solid #5545B1;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.validate-input input {
+    font-size: 16px;
+    line-height: 130%;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.validation-error {
+    width: 90%;
+    align-content: start;
+    color: indianred;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.form-button {
+    margin-bottom: 25px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-container {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+.button {
+    padding: 6px;
+    width: 118px;
+    height: 32px;
+    background: #5545B1;
+    border: 2px solid #5545B1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: white;
+    transition: background-color .5s;
+}
+
+.button:hover:not(:disabled) {
+    cursor: pointer;
+    background-color: #897CCF;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    color: gray;
+    background-color: #4A446D;
+}

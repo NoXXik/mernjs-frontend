@@ -1,0 +1,91 @@
+.navbar {
+    background-color: #897CCF;
+    border: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 98vw;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar img {
+    width: 64px;
+    height: 64px;
+    margin-left: 20px;
+}
+
+.navbar-title {
+    margin-right: 65%;
+    margin-left: 1%;
+    outline: none;
+    line-height: 23px;
+    color: white;
+}
+
+.navbar-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-button {
+    margin-right: 20px;
+    cursor: pointer;
+    border: 2px solid #5545B1;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    transition: background-color .5s;
+    color: white;
+    background-color: #897CCF;
+    font-size: 20px;
+}
+
+.navbar-login {
+    margin-right: 20px;
+}
+
+.navbar-button:hover {
+    background-color: #4A446D;
+}
+
+.navbar-login a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-registration {
+    cursor: pointer;
+    border: 2px solid #5545B1;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    transition: background-color .5s;
+}
+
+.navbar-registration:hover {
+    background-color: #4A446D;
+}
+
+.navbar-registration a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-search {
+    margin-left: 5px;
+}
+
+.user-name {
+    margin-right: 20px;
+}
+
+.navbar-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
