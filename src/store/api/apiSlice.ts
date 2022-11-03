@@ -20,7 +20,7 @@ export const apiSlice = createApi({
     reducerPath: 'api',
     tagTypes: ['Files'],
     baseQuery: fetchBaseQuery({
-        baseUrl: `https://sleepy-hollows-05806.herokuapp.com/api`,
+        baseUrl: `https://mernjs-backend.herokuapp.com/api`,
         prepareHeaders: (headers: Headers) => {
             const user = JSON.parse(localStorage.getItem("user") || "{}") as IUserInitialState
             if (user.user?.token) {
